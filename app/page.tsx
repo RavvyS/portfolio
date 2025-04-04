@@ -377,7 +377,7 @@ export default function Home() {
                 : "opacity-0 translate-y-10"
             )}
           >
-            Services
+            Projects
           </h2>
           <div
             ref={servicesContentRef}
@@ -444,11 +444,13 @@ export default function Home() {
                     aria-hidden="true"
                   />
                   <h3 className="text-xl font-semibold font-heading">
-                    Interim Leadership
+                  Online Vehicle Service and Fuel Station Management System
+
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                  Temporary CPO or VP of Product for companies in transition.
+                Technologies used: Java/JavaScript/MySQL/HTML/CSS
+                Developed a Fuel Station and Service Management System to optimize fuel distribution and streamline vehicle service operations.
                 </p>
               </div>
 
