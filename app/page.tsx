@@ -225,7 +225,7 @@ export default function Home() {
         {/* Navigation links in top right corner */}
         <div className="absolute top-6 right-6 z-10 flex space-x-3">
           <a
-            href="https://www.linkedin.com/in/neilalliston/"
+            href="www.linkedin.com/in/ravindu-s-hemachandra-ba750425a/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"
@@ -323,9 +323,16 @@ export default function Home() {
                     I am an undergraduate Data Science student at SLIIT.
                   </p>
                   <p className="text-gray-300">
-                  I am passionate about the field of data engineering and eager to gain real-world experience by contributing to your company’s innovative projects while learning from industry experts.                  </p>
+                    I am passionate about the field of data engineering and
+                    eager to gain real-world experience by contributing to your
+                    company’s innovative projects while learning from industry
+                    experts.{" "}
+                  </p>
                   <p className="text-gray-300">
-                  And also , I'm a quick learner, and I'm an adaptable person, and I'm a good team player.If you are interested, send me an email. We can connect it., end this sentance for suits in my cv about page
+                    And also , I'm a quick learner, and I'm an adaptable person,
+                    and I'm a good team player.If you are interested, send me an
+                    email. We can connect it., end this sentance for suits in my
+                    cv about page
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 pt-4 justify-center md:justify-start">
@@ -390,13 +397,19 @@ export default function Home() {
                     aria-hidden="true"
                   />
                   <h3 className="text-xl font-semibold font-heading">
-                  Weather Prediction Using Ridge Regression (Completed)
+                    Weather Prediction Using Ridge Regression (Completed)
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                Technologies used: Python, Pandas, Scikit-Learn, JupyterLab, Matplotlib</p>
+                  Technologies used: Python, Pandas, Scikit-Learn, JupyterLab,
+                  Matplotlib
+                </p>
                 <p className="text-gray-300">
-                Built a machine learning model to predict the next day’s maximum temperature using historical weather data from NOAA (1970-present). Applied Ridge regression for predictive modeling and implemented feature engineering techniques to improve accuracy.
+                  Built a machine learning model to predict the next day’s
+                  maximum temperature using historical weather data from NOAA
+                  (1970-present). Applied Ridge regression for predictive
+                  modeling and implemented feature engineering techniques to
+                  improve accuracy.
                 </p>
               </div>
 
@@ -408,13 +421,18 @@ export default function Home() {
                     aria-hidden="true"
                   />
                   <h3 className="text-xl font-semibold font-heading">
-                  ETL Pipeline for Weather Data Analysis (Completed)
+                    ETL Pipeline for Weather Data Analysis (Completed)
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                Technologies used: Python, PostgreSQL, Pandas, Requests, SQLAlchemy​</p>
+                  Technologies used: Python, PostgreSQL, Pandas, Requests,
+                  SQLAlchemy​
+                </p>
                 <p className="text-gray-300">
-                Project Overview: Developed a robust ETL (Extract, Transform, Load) pipeline to automate the collection and processing of weather data from public APIs, storing it in a PostgreSQL database for comprehensive analysis.​
+                  Project Overview: Developed a robust ETL (Extract, Transform,
+                  Load) pipeline to automate the collection and processing of
+                  weather data from public APIs, storing it in a PostgreSQL
+                  database for comprehensive analysis.​
                 </p>
               </div>
 
@@ -442,13 +460,17 @@ export default function Home() {
                     aria-hidden="true"
                   />
                   <h3 className="text-xl font-semibold font-heading">
-                  Employee Management System (Ongoing)
+                    Employee Management System (Ongoing)
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                Technologies used: React JS, Tailwind CSS, Express, MongoDB, Shadcn UI, Bootstrap</p>
+                  Technologies used: React JS, Tailwind CSS, Express, MongoDB,
+                  Shadcn UI, Bootstrap
+                </p>
                 <p className="text-gray-300">
-Building the WorkSync platform streamlines employee management, enhances task tracking, automates onboarding and offboarding, and improves overall operational efficiency.
+                  Building the WorkSync platform streamlines employee
+                  management, enhances task tracking, automates onboarding and
+                  offboarding, and improves overall operational efficiency.
                 </p>
               </div>
             </div>
