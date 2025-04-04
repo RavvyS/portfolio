@@ -19,12 +19,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Fractional AI Product Leader",
+  title: "RavvyS | Data Engineer",
   description: "Cutting-edge product consulting, leadership and development",
   icons: {
-    icon: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-aqLykDdk1VduKoA8msLOBydnuoe6K8.svg",
-    shortcut: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-aqLykDdk1VduKoA8msLOBydnuoe6K8.svg",
-    apple: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/icon-aqLykDdk1VduKoA8msLOBydnuoe6K8.svg",
+    icon: "https://auywayc9wlk0qvk2.public.blob.vercel-storage.com/file-BaXiIMwT4zcH7SZIKu4FnAmqRQglyH.svg",
+    shortcut: "https://auywayc9wlk0qvk2.public.blob.vercel-storage.com/file-BaXiIMwT4zcH7SZIKu4FnAmqRQglyH.svg",
+    apple: "https://auywayc9wlk0qvk2.public.blob.vercel-storage.com/file-BaXiIMwT4zcH7SZIKu4FnAmqRQglyH.svg",
   },
     generator: 'v0.dev'
 }
