@@ -225,7 +225,7 @@ export default function Home() {
         {/* Navigation links in top right corner */}
         <div className="absolute top-6 right-6 z-10 flex space-x-3">
           <a
-            href="www.linkedin.com/in/ravindu-s-hemachandra-ba750425a/"
+            href="https://www.linkedin.com/in/ravindu-s-hemachandra-ba750425a/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn Profile"

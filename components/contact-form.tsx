@@ -10,6 +10,9 @@ import { Textarea } from "@/components/ui/textarea"
 import { useToast } from "@/components/ui/use-toast"
 import { cn } from "@/lib/utils"
 
+// Import the sendEmail action at the top of the file
+import { sendEmail } from "@/app/actions/send-email"
+
 type FieldErrors = {
   name?: string
   email?: string
@@ -94,34 +97,63 @@ export function ContactForm() {
     return Object.keys(newErrors).length === 0
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
 
     if (!validateForm()) {
       return
     }
 
-    // Create mailto link with form data
-    const subject = `Website Contact from ${formData.name}`
-    const body = `
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone || "Not provided"}
+    setIsSubmitting(true)
+    setServerError(null)
 
-Message:
-${formData.message}
-  `
+    try {
+      const result = await sendEmail(formData)
 
-    // Create and click a mailto link
-    const mailtoLink = `mailto:your@email.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
-    window.location.href = mailtoLink
+      if (result.success) {
+        // Reset form on success
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        })
 
-    // Show success message
-    toast({
-      title: "Opening email client",
-      description: "Your message is ready to send from your email application.",
-      duration: 2000,
-    })
+        // Show success message
+        toast({
+          title: "Message sent",
+          description: result.message || "Your message has been sent successfully!",
+          duration: 5000,
+        })
+      } else {
+        // Handle validation errors
+        if (result.fieldErrors) {
+          setErrors(result.fieldErrors as FieldErrors)
+        }
+
+        // Show error message
+        setServerError(result.message || "Failed to send message. Please try again.")
+
+        toast({
+          title: "Error",
+          description: result.message || "Failed to send message. Please try again.",
+          variant: "destructive",
+          duration: 5000,
+        })
+      }
+    } catch (error) {
+      console.error("Error sending message:", error)
+      setServerError("An unexpected error occurred. Please try again later.")
+
+      toast({
+        title: "Error",
+        description: "An unexpected error occurred. Please try again later.",
+        variant: "destructive",
+        duration: 5000,
+      })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
