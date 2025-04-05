@@ -331,8 +331,7 @@ export default function Home() {
                   <p className="text-gray-300">
                     And also , I'm a quick learner, and I'm an adaptable person,
                     and I'm a good team player.If you are interested, send me an
-                    email. We can connect it., end this sentance for suits in my
-                    cv about page
+                    email. We can connect it !!
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3 pt-4 justify-center md:justify-start">
