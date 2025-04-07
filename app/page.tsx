@@ -8,8 +8,7 @@ import {
   LineChart,
   Clock,
   Lightbulb,
-  BotIcon 
-  as Robot,
+  BotIcon as Robot,
 } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { ChatbotModal } from "@/components/chatbot-modal";
@@ -236,7 +235,6 @@ export default function Home() {
             <Linkedin className="h-5 w-5" />
           </a>
 
-          
           <a
             href="https://github.com/RavvyS/"
             target="_blank"
@@ -245,6 +243,17 @@ export default function Home() {
             className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-white bg-transparent text-white transition-colors hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
           >
             <Github className="h-5 w-5" />
+          </a>
+          <a
+            href="https://medium.com/@ravindusdc"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Medium Profile"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-white bg-transparent text-white transition-colors hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
+          >
+            <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z" />
+            </svg>
           </a>
 
           <Button
@@ -456,13 +465,13 @@ export default function Home() {
                     aria-hidden="true"
                   />
                   <h3 className="text-xl font-semibold font-heading">
-                  Online Vehicle Service and Fuel Station Management System
-
+                    Online Vehicle Service and Fuel Station Management System
                   </h3>
                 </div>
                 <p className="text-gray-300">
-                Technologies used: Java/JavaScript/MySQL/HTML/CSS
-                Developed a Fuel Station and Service Management System to optimize fuel distribution and streamline vehicle service operations.
+                  Technologies used: Java/JavaScript/MySQL/HTML/CSS Developed a
+                  Fuel Station and Service Management System to optimize fuel
+                  distribution and streamline vehicle service operations.
                 </p>
               </div>
 
