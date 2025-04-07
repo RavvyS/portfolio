@@ -4,10 +4,12 @@ import {
   ChevronDown,
   Linkedin,
   Users,
+  Github,
   LineChart,
   Clock,
   Lightbulb,
-  BotIcon as Robot,
+  BotIcon 
+  as Robot,
 } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { ChatbotModal } from "@/components/chatbot-modal";
@@ -232,6 +234,17 @@ export default function Home() {
             className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-white bg-transparent text-white transition-colors hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
           >
             <Linkedin className="h-5 w-5" />
+          </a>
+
+          
+          <a
+            href="https://github.com/RavvyS/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github Profile"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-white bg-transparent text-white transition-colors hover:bg-white hover:text-black focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-black"
+          >
+            <Github className="h-5 w-5" />
           </a>
 
           <Button
