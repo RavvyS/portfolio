@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Quicksand, Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import { Analytics } from "@vercel/analytics/react"
 
 // Load Quicksand for body text
 const quicksand = Quicksand({
@@ -42,9 +43,8 @@ export default function RootLayout({
       <body className={`${quicksand.variable} ${inter.variable} font-sans`}>
         {children}
         <Toaster />
+        <Analytics />
       </body>
     </html>
   );
 }
-
-import "./globals.css";

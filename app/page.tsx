@@ -285,7 +285,7 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mt-4 text-lg text-gray-300 md:text-xl px-4 max-w-xs mx-auto md:max-w-none">
-                Data Engineer
+                Full stack Developer | Data Engineer | Data Analytics
               </p>
               <Button
                 onClick={scrollToAbout}
