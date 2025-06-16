@@ -342,7 +342,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold font-heading">About</h2>
                 <div className="space-y-4 max-w-2xl">
                   <p className="text-gray-300">
-                    I am an undergraduate Data Science student at SLIIT.
+                    I am an undergraduate IT student at SLIIT.
                   </p>
                   <p className="text-gray-300">
                     I am passionate about the field of data engineering and
