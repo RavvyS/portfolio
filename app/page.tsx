@@ -345,7 +345,7 @@ export default function Home() {
                     I am an undergraduate IT student at SLIIT.
                   </p>
                   <p className="text-gray-300">
-                    I am passionate about the field of data engineering and
+                    I am passionate about the field of Software engineering and
                     eager to gain real-world experience by contributing to your
                     company’s innovative projects while learning from industry
                     experts.{" "}
